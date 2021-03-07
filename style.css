@@ -1,0 +1,110 @@
+
+body {
+  text-align: center;
+  background:#20cd96;
+  width:100%;
+  margin-bottom: 100px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+nav a{
+  background: #69c3de;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #0b4f6c;
+  border-top: 3px solid #0b4f6c;
+  border-left: 3px solid #0b4f6c;
+  border-right: 3px solid #0b4f6c;
+  font-size: 16px;
+  padding: 20px 0;
+  font-family: “Mukta”, sans-serif;
+}
+
+a {
+  color: #0b4f6c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+li {
+  width: 25%;
+  float:left;
+  margin: 20px auto;
+}
+
+a:visited {
+}
+
+nav a:hover, p a:hover {
+  color:#20cd96;
+  background: #0b4f6c;
+}
+
+h1 {
+Font-size: 36px
+}
+
+h2 {
+Font-size: 25px
+}
+
+h1, h2 {
+font-family: "Poppins", serif;
+font-weight: 700;
+}
+
+/* FIRST PAGE SPECIFIC STYLES */
+
+.introvideo {
+  width: 100%;
+       max-width: 600px;
+       margin: 2rem auto;
+}
+
+.introinfo {
+    color: black;
+    background:#69c3de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px solid #0b4f6c;
+    border-bottom: 3px solid #0b4f6c;
+    border-left: 3px solid #0b4f6c;
+    border-right: 3px solid #0b4f6c;
+    width: 100%;
+}
+
+#about1 {
+  text-align: left;
+  width: 50%;
+}
+
+#didyouknow1 {
+  text-align: right;
+  font-style: Mukta; sans-serif;
+}
+
+.mentaldisorders {
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* END OF FIRST PAGE!!!!!!! */
+
+/* START OF SECOND PAGE!!!!! */
+
+.tipsvideo {
+  width: 100%;
+       max-width: 600px;
+       margin: 2rem auto;
+}
