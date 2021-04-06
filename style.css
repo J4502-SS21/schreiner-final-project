@@ -21,11 +21,16 @@ nav a{
   font-size: 16px;
   padding: 20px 0;
   font-family: “Mukta”, sans-serif;
+  color: #0b4f6c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
 }
 
 a {
-  color: #0b4f6c;
-  text-decoration: none;
+  color: #333333;
+  text-decoration: underline;
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
@@ -77,7 +82,7 @@ iframe {
   border: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 830px) {
   li {
     width: 100%;
     float: left;
@@ -85,6 +90,11 @@ iframe {
 }
 
 /* FIRST PAGE SPECIFIC STYLES */
+
+#pg1intro {
+  width: 75%;
+  margin: 2rem auto;
+}
 
 .introvideo {
   width: 100%;
@@ -120,7 +130,7 @@ iframe {
 
 #didyouknow1 {
   font-family: "Mukta", sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -162,8 +172,9 @@ iframe {
 
 .tipsvideo {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 2rem auto;
+  display: flex;
 }
 
 .videoandtext {
@@ -176,7 +187,8 @@ iframe {
 .videoBTN {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 75%;
+    padding right: 10px;
 }
 
 .actualkeywords {
@@ -188,7 +200,15 @@ iframe {
 .keywords {
   padding-top: 10px;
   padding-bottom: 10px;
+  color: black;
+  background:#69c3de;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top: 3px solid #0b4f6c;
+  border-bottom: 3px solid #0b4f6c;
+  border-left: 3px solid #0b4f6c;
+  border-right: 3px solid #0b4f6c;
+  width: 100%;
 }
 
 #bythenumbers2, .keywords {
@@ -239,12 +259,18 @@ iframe {
 
 #bythenumbers3 {
   font-family: "Mukta", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
+  font-style: italic;
 }
 
 /* END OF THIRD PAGE!!!!!!! */
 /* START OF FOURTH PAGE!!!!! */
+
+#pg4intro {
+  width: 75%;
+  margin: 2rem auto;
+}
 
 .about4text {
   font-family: "Mukta", sans-serif;
@@ -259,8 +285,10 @@ iframe {
   width: 100%;
 }
 .BTN4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
+  font-size: 22px;
+  font-style: italic;
 }
 
 .socialmediavideo {
