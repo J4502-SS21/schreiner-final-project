@@ -36,15 +36,6 @@ a {
   font-weight: bold;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 li {
   width: 25%;
   float:left;
@@ -84,6 +75,14 @@ font-weight: 700;
 
 iframe {
   border: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #menu_trigger {
@@ -220,7 +219,7 @@ ol {
 .actualkeywords {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
 }
 
 .keywords {
