@@ -11,7 +11,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
+<script src="pgthree.js" defer></script>
 </head>
 
 <body>
@@ -30,19 +30,23 @@
 <section class="page3about">
   <section class= "pg3abouttext">
   <h2> A 2020 overview </h2>
-<p> While mental health is important to consider in everyday life, it’s become a larger problem during the COVID-19 pandemic. <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6932a1.htm">The CDC released a statement</a> that says, in June 2020, U.S. adults reported elevated adverse mental health conditions associated with COVID-19 and younger adults experienced disproportionately worse mental health outcomes, and higher substance use and elevated suicidal thoughts. This shows that mental health is more of a priority now more than ever. </p>
-<p> According to the CDC report, as of late June 40%, 31% of adults reported increased symptoms of anxiety and depression and 11% considered suicide. </p>
+<p class="therapy"> While mental health is important to consider in everyday life, it’s become a larger problem during the COVID-19 pandemic. <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6932a1.htm">The CDC released a statement</a> that says, in June 2020, U.S. adults reported elevated adverse mental health conditions associated with COVID-19 and younger adults experienced disproportionately worse mental health outcomes, and higher substance use and elevated suicidal thoughts. This shows that mental health is more of a priority now more than ever. </p>
+<p class="therapy"> According to the CDC report, as of late June 40%, 31% of adults reported increased symptoms of anxiety and depression and 11% considered suicide. </p>
 </section>
 <section class= "pg3abouttext">
 <h2> Online therapy </h2>
-<p> It hasn’t been all bad, however. The pandemic paved the way for telehealth to take over, and there’s a good chance it’s here to stay. Online therapy has allowed for increased access, reduced travel costs and flexibility that in-person therapy was not able to do. In fact, there have been studies that prove some patients prefer telehealth services. In an article from <a href="https://www.apa.org/monitor/2021/01/trends-online-therapy">the American Psychological Association,</a> Jeanine Turner, professor at Georgetown University, said telehealth is here to stay. </p>
-<p>“Last year, within weeks, the system had to absorb all the challenges of wide-scale adoption,” says Turner. “Now, it’s taken off—and there will be no going back.”</p>
+<p class="online"> It hasn’t been all bad, however. The pandemic paved the way for telehealth to take over, and there’s a good chance it’s here to stay. Online therapy has allowed for increased access, reduced travel costs and flexibility that in-person therapy was not able to do. In fact, there have been studies that prove some patients prefer telehealth services. In an article from <a href="https://www.apa.org/monitor/2021/01/trends-online-therapy">the American Psychological Association,</a> Jeanine Turner, professor at Georgetown University, said telehealth is here to stay. </p>
+<p class="online">“Last year, within weeks, the system had to absorb all the challenges of wide-scale adoption,” says Turner. “Now, it’s taken off—and there will be no going back.”</p>
 </section>
 </section>
 
 <section class= "BTN3">
 <h2> By the numbers </h2>
 <p id= "bythenumbers3"><a href="https://www.mhanational.org/issues/state-mental-health-america">70%</a> of people screened with with moderate to severe symptoms of anxiety or depression from April to September 2020 said that one of the top three things contributing to their mental health concerns was loneliness or isolation. </p>
+</section>
+
+<section class="covidpodcast">
+<iframe src="https://open.spotify.com/embed-podcast/episode/13fiGgXC5mahXtdQT1q7GG" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
 
 <section class="homehealth">
@@ -56,7 +60,53 @@
 </ol>
 </section>
 
-<h2> QUIZ: What new hobby should you pursue to stay healthy? </h2>
+<section class="quiz">
+<h2 id="quizheader"> QUIZ: How well do you know your healthy habits? </h2>
+
+<form>
+   <h3>How many minutes does Mayo Clinic recommend exercising per day?</h3>
+   <div><input id="60" type="radio" name="exercise" value="60">
+   <label for="60">60</label></div>
+
+   <div><input id="45" type="radio" name="exercise" value="45">
+   <label for="45">45</label></div>
+
+   <div><input id="30" type="radio" name="exercise" value="30" class="correct">
+   <label for="30">30</label></div>
+</form>
+
+<form>
+   <h3>How much water should you drink a day?</h3>
+   <div><input id="8" type="radio" name="water" value="8" class="correct">
+   <label for="8">8 cups</label></div>
+
+   <div><input id="4" type="radio" name="water" value="4">
+   <label for="4">4 cups</label></div>
+
+   <div><input id="nothing" type="radio" name="water" value="nothing">
+   <label for="nothing">It doesn't matter if you drink other liquids instead</label></div>
+</form>
+
+<form>
+   <h3>Which of these do <strong>not</strong> impact your mental health?</h3>
+   <div><input id="sleep" type="radio" name="healthimpact" value="sleep">
+   <label for="sleep">Sleep</label></div>
+
+   <div><input id="social" type="radio" name="healthimpact" value="social">
+   <label for="social">Social interaction</label></div>
+
+   <div><input id="stress" type="radio" name="healthimpact" value="stress">
+   <label for="stress">Stress</label></div>
+
+   <div><input id="none" type="radio" name="healthimpact" value="none" class="correct">
+   <label for="none">None of the above</label></div>
+</form>
+
+<button class="shadow" id="submit">Submit</button>
+
+<p class="answers" id="answerTally"></p>
+</section>
+
 
 </body>
 <script src="main.js" type="text/javascript"></script>

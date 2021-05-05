@@ -6,6 +6,7 @@ body {
   margin-bottom: 100px;
   font-family: "Poppins", serif;
   font-weight: 400;
+  margin: 2rem auto;
 }
 
 nav a{
@@ -14,10 +15,7 @@ nav a{
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
-  border-bottom: 3px solid #0b4f6c;
-  border-top: 3px solid #0b4f6c;
-  border-left: 3px solid #0b4f6c;
-  border-right: 3px solid #0b4f6c;
+  border: 3px solid #0b4f6c;
   font-size: 16px;
   padding: 20px 0;
   font-family: “Mukta”, sans-serif;
@@ -26,6 +24,8 @@ nav a{
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
+  box-sizing: border-box;
+  margin-right: 2rem;
 }
 
 a {
@@ -103,8 +103,8 @@ ul {
   #menu_trigger {
     display: block;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1px;
+    right: 1px;
   }
 
   #menu_nav {
@@ -117,6 +117,10 @@ ol {
 }
 
 /* FIRST PAGE SPECIFIC STYLES */
+
+#header1 {
+  width: 100%;
+}
 
 #pg1intro {
   width: 75%;
@@ -140,6 +144,8 @@ ol {
     border-left: 3px solid #0b4f6c;
     border-right: 3px solid #0b4f6c;
     width: 100%;
+  box-sizing: border-box;
+  margin-right: 2rem;
 }
 
 .introinfo {
@@ -153,12 +159,18 @@ ol {
     display: flex;
     flex-direction: column;
     width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #didyouknow1 {
   font-family: "Mukta", sans-serif;
   font-size: 22px;
   font-weight: bold;
+}
+
+.carepodcast {
+  padding: 2rem;
 }
 
 .mentaldisorders {
@@ -189,6 +201,12 @@ ol {
 }
 */
 
+#pg2intro {
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .bottompg2 {
   padding-bottom: 10px;
   border-bottom: 3px solid #0b4f6c;
@@ -205,8 +223,10 @@ ol {
 .videoandtext {
      display: flex;
      flex-direction: row;
-     width: 100%;
+     width: 90%;
      max-width: 1500px;
+     box-sizing: border-box;
+     margin: 2rem;
 }
 
 .videoBTN {
@@ -234,6 +254,8 @@ ol {
   border-left: 3px solid #0b4f6c;
   border-right: 3px solid #0b4f6c;
   width: 100%;
+  box-sizing: border-box;
+  margin-right: 2rem;
 }
 
 .mhconvo {
@@ -242,20 +264,23 @@ ol {
      width: 98%;
      max-width: 1500px;
      border-bottom: 3px solid #0b4f6c;
+     margin-right: 20px;
+     margin-left: 30px;
 }
 
 .theconvo {
     display: flex;
     flex-direction: column;
     width: 75%;
+    padding-right: 20px;
 }
 
 .dyk2 {
-  background:#69c3de;
-  border-top: 3px solid #0b4f6c;
-  border-bottom: 3px solid #0b4f6c;
-  border-left: 3px solid #0b4f6c;
-  border-right: 3px solid #0b4f6c;
+  width: 90%;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #didyouknow2 {
@@ -263,6 +288,13 @@ ol {
   font-size: 22px;
   font-weight: bold;
   width: 95%;
+  box-sizing: border-box;
+  margin-right: 2rem;
+  background:#69c3de;
+  border-top: 3px solid #0b4f6c;
+  border-bottom: 3px solid #0b4f6c;
+  border-left: 3px solid #0b4f6c;
+  border-right: 3px solid #0b4f6c;
 }
 
 #bythenumbers2, .keywords {
@@ -274,8 +306,24 @@ ol {
   font-style: italic;
   font-weight: bold;
 }
+
+#managinganxiety {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* END OF SECOND PAGE!!!!!!! */
 /* START OF THIRD PAGE!!!!! */
+
+.therapy {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.online {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .page3about {
      display: flex;
@@ -302,13 +350,22 @@ ol {
       border-left: 3px solid #0b4f6c;
       border-right: 3px solid #0b4f6c;
       width: 100%;
+      box-sizing: border-box;
+      margin-right: 2rem;
+      padding-right: 10px;
+}
+
+.covidpodcast {
+  padding: 2rem;
 }
 
 .homehealth {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 3px solid #0b4f6c;
+  border-top: 3px solid #0b4f6c;
   width: 100%;
+    background:#69c3de;
 }
 
 #bythenumbers3 {
@@ -316,6 +373,53 @@ ol {
   font-size: 22px;
   font-weight: bold;
   font-style: italic;
+}
+
+
+form {
+  margin: 2rem;
+  box-sizing: border-box;
+  border: 2px solid #0b4f6c;
+  border-radius: 15px;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+shadow {
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 3px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
+.answers {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.answers span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button {
+  margin: 2rem auto;
+  display: block;
+  color: #69c3de;
+  background: #0b4f6c;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#quizheader {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* END OF THIRD PAGE!!!!!!! */
@@ -343,6 +447,9 @@ ol {
   font-weight: 500;
   font-size: 22px;
   font-style: italic;
+  box-sizing: border-box;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .socialmediavideo {
@@ -372,4 +479,6 @@ ol {
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding-right: 20px;
+    padding-left: 10px;
 }
